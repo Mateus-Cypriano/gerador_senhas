@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(184, 231, 240, 0.836);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#senha-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+#senha-container h1 {
+    text-align: center;
+}
+
+#senha-container h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.button {
+    background-color: #fff;
+    border: solid 1px #000;
+    color: #000;
+    width: fit-content;
+    padding: 3px 6px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-size: 13px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000;
+    color:#fff;
+    transition: 0.4s;
+}
+
+#gerador {
+    border-radius: 8px;
+    width: 500px;
+    align-self: center;
+    padding: 5px 10px;
+    border: 0.4px solid #000;
+}
+
+#limpar {
+    display: flex;
+    align-items: center;
+}
